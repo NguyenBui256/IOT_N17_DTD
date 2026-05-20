@@ -1,26 +1,16 @@
-# VROOM Docker image
+# IOT Project - Application for solving the Vehicle Routing Problem (VRP) to find the shortest and most fuel-efficient route for a delivery fleet with multiple stops.
 
-[![Master push](https://github.com/VROOM-Project/vroom-docker/actions/workflows/master_push.yml/badge.svg)](https://github.com/VROOM-Project/vroom-docker/actions/workflows/master_push.yml)
+## Group Members
 
-This image includes all dependencies and projects needed to successfully run an instance of [`vroom-express`](https://github.com/VROOM-Project/vroom-express) on top of [`vroom`](https://github.com/VROOM-Project/vroom). Within 2 minutes you'll have a routing optimization engine running on your machine.
+| Name | Student ID |
+|------|------------|
+| Bui The Vinh Nguyen | B22DCCN588 |
+| Phung Hai Nam | B22DCCN564 |
+| Nguyen The Lam | B22DCCN480 |
 
-```bash
-docker run -dt --name vroom \
-    --net host \  # or set the container name as host in config.yml and use --port 3000:3000 instead, see below
-    -v $PWD/conf:/conf \ # mapped volume for config & log
-    -e VROOM_ROUTER=osrm \ # routing layer: osrm, valhalla or ors
-    ghcr.io/vroom-project/vroom-docker:v1.15.0
-```
+## Instructor: PhD. Tien Dung Do
 
-If you want to build the image yourself, run a
-
-`docker build -t ghcr.io/vroom-project/vroom-docker:v1.15.0 --build-arg VROOM_RELEASE=v1.15.0 --build-arg VROOM_EXPRESS_RELEASE=v0.12.0 .`
-
-> **Note**, you should have access to a self-hosted instance of OSRM, Valhalla or OpenRouteService for the routing server.
-
-## Tagging
-
-The tagging scheme follows the release convention of `vroom` core.
+---
 
 ## Customization
 
@@ -63,3 +53,17 @@ Alternatively you can add both containers to a private Docker network and change
 ### Routing server on a remote server
 
 In this case, you'll have to edit the mapped `config.yml` to include the host and port you published the routing server on.
+
+## Project Screenshots
+
+### System Interface
+
+![Screenshot 1](../report/Screenshot_1.png)
+
+![Screenshot 2](../report/Screenshot_2.png)
+
+### VRPTW Visualization
+
+![VRPTW Example 1](../report/vrptw1.png)
+
+![VRPTW Example 2](../report/vrptw2.png)
