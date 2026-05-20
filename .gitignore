@@ -1,3 +1,7 @@
 *conf/
 docker-compose.yml
 .idea
+
+/data
+data.zip
+data/*
