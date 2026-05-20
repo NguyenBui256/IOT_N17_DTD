@@ -58,12 +58,12 @@ In this case, you'll have to edit the mapped `config.yml` to include the host an
 
 ### System Interface
 
-![Screenshot 1](../report/Screenshot_1.png)
+![Screenshot 1](./Screenshot_1.png)
 
-![Screenshot 2](../report/Screenshot_2.png)
+![Screenshot 2](./Screenshot_2.png)
 
 ### VRPTW Visualization
 
-![VRPTW Example 1](../report/vrptw1.png)
+![VRPTW Example 1](./vrptw1.png)
 
-![VRPTW Example 2](../report/vrptw2.png)
+![VRPTW Example 2](./vrptw2.png)
