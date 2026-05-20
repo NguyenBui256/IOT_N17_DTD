@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8 />
+  <title>Vehicle Routing Open-source Optimization Machine (DEMO)</title>
+    <meta name="viewport" content="initial-scale=1.0 maximum-scale=1.0">
+
+    <link rel="stylesheet" href="./css/OpenSans.css" />
+    <link rel="stylesheet" href="./node_modules/leaflet/dist/leaflet.css">
+    <link rel="stylesheet" href="./node_modules/leaflet-control-geocoder/dist/Control.Geocoder.css">
+    <link rel="stylesheet" href="./css/vroom.css" />
+  </head>
+  <body>
+    <div id="map"></div>
+    
+    <!-- PDP Instruction Banner -->
+    <div id="pdp-instruction" class="pdp-instruction-banner" style="display: none;">
+      <div class="pdp-instruction-content">
+        <span class="pdp-instruction-icon">📍</span>
+        <span id="pdp-instruction-text">Click on the map to set the Pickup location</span>
+      </div>
+      <button id="pdp-instruction-cancel" class="pdp-cancel-btn">Cancel</button>
+    </div>
+
+    <script src="src/map.js"></script>
+  </body>
+</html>

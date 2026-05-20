@@ -1,0 +1,93 @@
+{
+  "vehicles": [
+    {
+      "id": 1,
+      "profile": "car",
+      "description": "Truck 1 - Hoan Kiem",
+      "start": [
+        105.80263,
+        21.03635
+      ],
+      "end": [
+        105.80263,
+        21.03635
+      ],
+      "capacity": [
+        50
+      ]
+    },
+    {
+      "id": 2,
+      "profile": "car",
+      "description": "Truck 2 - Hoan Kiem",
+      "start": [
+        105.86192,
+        21.01614
+      ],
+      "end": [
+        105.86192,
+        21.01614
+      ],
+      "capacity": [
+        50
+      ]
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "description": "Delivery Ba Dinh",
+      "location": [
+        105.8347,
+        21.0368
+      ],
+      "delivery": [
+        15
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Delivery Dong Da",
+      "location": [
+        105.836,
+        21.0276
+      ],
+      "delivery": [
+        20
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Delivery Hai Ba Trung",
+      "location": [
+        105.8475,
+        21.0163
+      ],
+      "delivery": [
+        25
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Delivery Tay Ho",
+      "location": [
+        105.82,
+        21.06
+      ],
+      "delivery": [
+        18
+      ]
+    },
+    {
+      "id": 5,
+      "description": "Delivery Cau Giay",
+      "location": [
+        105.7838,
+        21.0165
+      ],
+      "delivery": [
+        12
+      ]
+    }
+  ]
+}

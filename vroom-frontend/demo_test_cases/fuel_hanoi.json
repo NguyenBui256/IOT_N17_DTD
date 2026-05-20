@@ -1,0 +1,74 @@
+{
+  "vehicles": [
+    {
+      "id": 1,
+      "profile": "car",
+      "description": "EV - Low Battery (10km)",
+      "start": [
+        105.80263,
+        21.03635
+      ],
+      "end": [
+        105.80263,
+        21.03635
+      ],
+      "max_distance": 10000
+    },
+    {
+      "id": 2,
+      "profile": "car",
+      "description": "EV - Medium Battery (15km)",
+      "start": [
+        105.80263,
+        21.03635
+      ],
+      "end": [
+        105.80263,
+        21.03635
+      ],
+      "max_distance": 15000
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "description": "Ba Dinh Delivery",
+      "location": [
+        105.8347,
+        21.0368
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Dong Da Delivery",
+      "location": [
+        105.836,
+        21.0276
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Hai Ba Trung Delivery",
+      "location": [
+        105.8475,
+        21.0163
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Tay Ho Delivery",
+      "location": [
+        105.82,
+        21.06
+      ]
+    },
+    {
+      "id": 5,
+      "description": "Cau Giay Delivery",
+      "location": [
+        105.7838,
+        21.0165
+      ]
+    }
+  ]
+}

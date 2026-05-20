@@ -1,0 +1,115 @@
+{
+  "vehicles": [
+    {
+      "id": 1,
+      "profile": "car",
+      "description": "Morning Shift Driver",
+      "start": [
+        105.80263,
+        21.03635
+      ],
+      "end": [
+        105.80263,
+        21.03635
+      ],
+      "time_window": [
+        28800,
+        50400
+      ]
+    },
+    {
+      "id": 2,
+      "profile": "car",
+      "description": "Afternoon Shift Driver",
+      "start": [
+        105.80263,
+        21.03635
+      ],
+      "end": [
+        105.80263,
+        21.03635
+      ],
+      "time_window": [
+        50400,
+        72000
+      ]
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "description": "Ba Dinh (Morning)",
+      "location": [
+        105.8347,
+        21.0368
+      ],
+      "service": 600,
+      "time_windows": [
+        [
+          32400,
+          43200
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Dong Da (Morning)",
+      "location": [
+        105.836,
+        21.0276
+      ],
+      "service": 600,
+      "time_windows": [
+        [
+          36000,
+          46800
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Hai Ba Trung (Midday)",
+      "location": [
+        105.8475,
+        21.0163
+      ],
+      "service": 600,
+      "time_windows": [
+        [
+          46800,
+          54000
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Tay Ho (Afternoon)",
+      "location": [
+        105.82,
+        21.06
+      ],
+      "service": 600,
+      "time_windows": [
+        [
+          54000,
+          64800
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "description": "Cau Giay (Afternoon)",
+      "location": [
+        105.7838,
+        21.0165
+      ],
+      "service": 600,
+      "time_windows": [
+        [
+          57600,
+          68400
+        ]
+      ]
+    }
+  ]
+}

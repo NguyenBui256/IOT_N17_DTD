@@ -5,3 +5,5 @@ docker-compose.yml
 /data
 data.zip
 data/*
+
+vroom-frontend/node_modules

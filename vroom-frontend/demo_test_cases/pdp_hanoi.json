@@ -1,0 +1,68 @@
+{
+  "vehicles": [
+    {
+      "id": 1,
+      "profile": "car",
+      "description": "Courier 1",
+      "start": [
+        105.80263,
+        21.03635
+      ],
+      "end": [
+        105.80263,
+        21.03635
+      ],
+      "capacity": [
+        60
+      ]
+    }
+  ],
+  "shipments": [
+    {
+      "pickup": {
+        "id": 1,
+        "description": "Pickup Ba Dinh Shop",
+        "location": [
+          105.80263,
+          21.03635
+        ],
+        "service": 300
+      },
+      "delivery": {
+        "id": 2,
+        "description": "Deliver Tay Ho Customer",
+        "location": [
+          105.80263,
+          21.03635
+        ],
+        "service": 300
+      },
+      "amount": [
+        20
+      ]
+    },
+    {
+      "pickup": {
+        "id": 3,
+        "description": "Pickup Dong Da Shop",
+        "location": [
+          105.836,
+          21.0276
+        ],
+        "service": 300
+      },
+      "delivery": {
+        "id": 4,
+        "description": "Deliver Cau Giay Customer",
+        "location": [
+          105.7838,
+          21.0165
+        ],
+        "service": 300
+      },
+      "amount": [
+        30
+      ]
+    }
+  ]
+}
