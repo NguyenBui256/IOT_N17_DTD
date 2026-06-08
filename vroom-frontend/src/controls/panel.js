@@ -21,7 +21,7 @@ var panelControl = L.Control.extend({
     // Header for panel control.
     var headerDiv = document.createElement('div');
     headerDiv.setAttribute('class', 'panel-header');
-    headerDiv.innerHTML = '<h3 style="margin: 0; padding: 10px 0; color: #1a73e8; font-weight: 700; font-size: 1.2rem; letter-spacing: 0.5px; text-transform: uppercase; border-bottom: 2px solid #e8f0fe; padding-bottom: 12px; margin-bottom: 10px;">VRP Nhom 16</h3>';
+    headerDiv.innerHTML = '<h3 style="margin: 0; padding: 10px 0; color: #1a73e8; font-weight: 700; font-size: 1.2rem; letter-spacing: 0.5px; text-transform: uppercase; border-bottom: 2px solid #e8f0fe; padding-bottom: 12px; margin-bottom: 10px;">VRP Nhom 17</h3>';
     this._div.appendChild(headerDiv);
 
     // Custom VRP Tabs
