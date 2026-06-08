@@ -1,0 +1,45 @@
+# version: "3.9"
+
+services:
+  osrm:
+    image: osrm/osrm-backend:latest
+    container_name: vroom-osrm
+    restart: always
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./data/data:/data
+    command: osrm-routed --algorithm mld /data/map.osrm
+    profiles:
+      - osrm
+      - all
+
+  vroom:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: vroom-backend
+    restart: always
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./conf:/conf
+    environment:
+      - VROOM_ROUTER=osrm
+    depends_on:
+      - osrm
+    profiles:
+      - all
+
+  frontend:
+    image: node:20-alpine
+    container_name: vroom-frontend
+    working_dir: /app
+    volumes:
+      - ../vroom-frontend:/app
+    ports:
+      - "8080:8080"
+    command: sh -c "npm install && npx -y beefy src/map.js 8080 --live --host 0.0.0.0"
+    profiles:
+      - frontend
+      - all
