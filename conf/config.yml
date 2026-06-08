@@ -1,0 +1,28 @@
+cliArgs:
+  geometry: false
+  planmode: false
+  threads: 4
+  explore: 5
+  limit: '1mb'
+  port: 3000
+  baseurl: '/'
+  router: 'osrm'
+  timeout: 300000
+  path: ''
+  override: true
+  maxlocations: 1000
+  maxvehicles: 200
+  logdir: 'logs'
+  logsize: '10M'
+
+routingServers:
+  osrm:
+    car:
+      host: 'osrm'
+      port: '5000'
+    bike:
+      host: 'osrm'
+      port: '5000'
+    foot:
+      host: 'osrm'
+      port: '5000'
